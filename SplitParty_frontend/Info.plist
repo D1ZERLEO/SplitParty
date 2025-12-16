@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleExecutable</key>
+	<string>App Transport Security Settings</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>App Transport Security Settings</string>
+	<key>LSApplicationCategoryType</key>
+	<string>App Transport Security Settings</string>
+	<key>CFBundleDisplayName</key>
+	<string>App Transport Security Settings</string>
+	<key>CFBundleGetInfoString</key>
+	<string>App Transport Security Settings</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>App Transport Security Settings</string>
+	<key>CFBundlePackageType</key>
+	<string>App Transport Security Settings</string>
+	<key>CFBundleName</key>
+	<string>MyApp</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.example.MyApp</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+</dict>
+</plist>

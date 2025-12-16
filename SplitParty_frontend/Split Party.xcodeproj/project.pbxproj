@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C30D6322EA4E32000E0A6FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C30D6272EA4E32000E0A6FA /* Assets.xcassets */; };
+		3C30D6342EA4E32000E0A6FA /* codetea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D6282EA4E32000E0A6FA /* codetea.swift */; };
+		3C30D6352EA4E32000E0A6FA /* AppNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D62C2EA4E32000E0A6FA /* AppNavigator.swift */; };
+		3C30D6362EA4E32000E0A6FA /* MyApp 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D62B2EA4E32000E0A6FA /* MyApp 2.swift */; };
+		3C30D6372EA4E32000E0A6FA /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D6302EA4E32000E0A6FA /* RegisterScreen.swift */; };
+		3C30D6382EA4E32000E0A6FA /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D62F2EA4E32000E0A6FA /* LoginScreen.swift */; };
+		3C30D6392EA4E32000E0A6FA /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D62E2EA4E32000E0A6FA /* HomeScreen.swift */; };
+		3C30D63A2EA4E32000E0A6FA /* codetea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D6282EA4E32000E0A6FA /* codetea.swift */; };
+		3C30D63B2EA4E32000E0A6FA /* AppNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D62C2EA4E32000E0A6FA /* AppNavigator.swift */; };
+		3C30D63C2EA4E32000E0A6FA /* MyApp 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D62B2EA4E32000E0A6FA /* MyApp 2.swift */; };
+		3C30D63D2EA4E32000E0A6FA /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D6302EA4E32000E0A6FA /* RegisterScreen.swift */; };
+		3C30D63E2EA4E32000E0A6FA /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D62F2EA4E32000E0A6FA /* LoginScreen.swift */; };
+		3C30D63F2EA4E32000E0A6FA /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D62E2EA4E32000E0A6FA /* HomeScreen.swift */; };
+		3C30D6402EA4E32000E0A6FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C30D6272EA4E32000E0A6FA /* Assets.xcassets */; };
+		3C30D6422EA4E32000E0A6FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C30D6272EA4E32000E0A6FA /* Assets.xcassets */; };
+		3C30D6442EA4E32000E0A6FA /* codetea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D6282EA4E32000E0A6FA /* codetea.swift */; };
+		3C30D6452EA4E32000E0A6FA /* AppNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D62C2EA4E32000E0A6FA /* AppNavigator.swift */; };
+		3C30D6462EA4E32000E0A6FA /* MyApp 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D62B2EA4E32000E0A6FA /* MyApp 2.swift */; };
+		3C30D6472EA4E32000E0A6FA /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D6302EA4E32000E0A6FA /* RegisterScreen.swift */; };
+		3C30D6482EA4E32000E0A6FA /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D62F2EA4E32000E0A6FA /* LoginScreen.swift */; };
+		3C30D6492EA4E32000E0A6FA /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D62E2EA4E32000E0A6FA /* HomeScreen.swift */; };
+		3C30D7452EA50C3F00E0A6FA /* EnterCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D7442EA50C3100E0A6FA /* EnterCode.swift */; };
+		3C30D7462EA50C3F00E0A6FA /* EnterCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D7442EA50C3100E0A6FA /* EnterCode.swift */; };
+		3C30D7472EA50C3F00E0A6FA /* EnterCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D7442EA50C3100E0A6FA /* EnterCode.swift */; };
+		3C30D7492EA50D8600E0A6FA /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D7482EA50D8500E0A6FA /* ForgotPassword.swift */; };
+		3C30D74A2EA50D8600E0A6FA /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D7482EA50D8500E0A6FA /* ForgotPassword.swift */; };
+		3C30D74B2EA50D8600E0A6FA /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D7482EA50D8500E0A6FA /* ForgotPassword.swift */; };
+		3C30D74D2EA50FF100E0A6FA /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D74C2EA50FEE00E0A6FA /* ResetPassword.swift */; };
+		3C30D74E2EA50FF100E0A6FA /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D74C2EA50FEE00E0A6FA /* ResetPassword.swift */; };
+		3C30D74F2EA50FF100E0A6FA /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D74C2EA50FEE00E0A6FA /* ResetPassword.swift */; };
+		3C30D7512EA5105400E0A6FA /* PasswordChanged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D7502EA5105200E0A6FA /* PasswordChanged.swift */; };
+		3C30D7522EA5105400E0A6FA /* PasswordChanged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D7502EA5105200E0A6FA /* PasswordChanged.swift */; };
+		3C30D7532EA5105400E0A6FA /* PasswordChanged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D7502EA5105200E0A6FA /* PasswordChanged.swift */; };
+		3C30D7752EACD49900E0A6FA /* MyPartiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D7742EACD48E00E0A6FA /* MyPartiesView.swift */; };
+		3C30D7762EACD49900E0A6FA /* MyPartiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D7742EACD48E00E0A6FA /* MyPartiesView.swift */; };
+		3C30D7772EACD49900E0A6FA /* MyPartiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D7742EACD48E00E0A6FA /* MyPartiesView.swift */; };
+		3C30D7792EACD9B300E0A6FA /* SharedBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D7782EACD9AE00E0A6FA /* SharedBillView.swift */; };
+		3C30D77A2EACD9B300E0A6FA /* SharedBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D7782EACD9AE00E0A6FA /* SharedBillView.swift */; };
+		3C30D77B2EACD9B300E0A6FA /* SharedBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D7782EACD9AE00E0A6FA /* SharedBillView.swift */; };
+		3C30D77D2EACF8E500E0A6FA /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D77C2EACF8DB00E0A6FA /* PlaylistView.swift */; };
+		3C30D77E2EACF8E500E0A6FA /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D77C2EACF8DB00E0A6FA /* PlaylistView.swift */; };
+		3C30D77F2EACF8E500E0A6FA /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D77C2EACF8DB00E0A6FA /* PlaylistView.swift */; };
+		3C30D7812EACFD4D00E0A6FA /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D7802EACFD4100E0A6FA /* AccountView.swift */; };
+		3C30D7822EACFD4D00E0A6FA /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D7802EACFD4100E0A6FA /* AccountView.swift */; };
+		3C30D7832EACFD4D00E0A6FA /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D7802EACFD4100E0A6FA /* AccountView.swift */; };
+		3C30D8192EB4F6BC00E0A6FA /* AppRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D8182EB4F6BC00E0A6FA /* AppRoute.swift */; };
+		3C30D81A2EB4F6BC00E0A6FA /* AppRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D8182EB4F6BC00E0A6FA /* AppRoute.swift */; };
+		3C30D81B2EB4F6BC00E0A6FA /* AppRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30D8182EB4F6BC00E0A6FA /* AppRoute.swift */; };
+		3C6F1F482ED468E0006AEA7C /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F1F472ED468D8006AEA7C /* FriendsView.swift */; };
+		3C6F1F492ED468E0006AEA7C /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F1F472ED468D8006AEA7C /* FriendsView.swift */; };
+		3C6F1F4A2ED468E0006AEA7C /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F1F472ED468D8006AEA7C /* FriendsView.swift */; };
+		3C6F1F4C2ED46FD9006AEA7C /* MusicAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F1F4B2ED46FD6006AEA7C /* MusicAccountView.swift */; };
+		3C6F1F4D2ED46FD9006AEA7C /* MusicAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F1F4B2ED46FD6006AEA7C /* MusicAccountView.swift */; };
+		3C6F1F4E2ED46FD9006AEA7C /* MusicAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F1F4B2ED46FD6006AEA7C /* MusicAccountView.swift */; };
+		3C6F1F502ED47166006AEA7C /* BillDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F1F4F2ED47165006AEA7C /* BillDetailView.swift */; };
+		3C6F1F512ED47166006AEA7C /* BillDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F1F4F2ED47165006AEA7C /* BillDetailView.swift */; };
+		3C6F1F522ED47166006AEA7C /* BillDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F1F4F2ED47165006AEA7C /* BillDetailView.swift */; };
+		3C6F1F542ED47182006AEA7C /* AddProductSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F1F532ED47180006AEA7C /* AddProductSheetView.swift */; };
+		3C6F1F552ED47182006AEA7C /* AddProductSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F1F532ED47180006AEA7C /* AddProductSheetView.swift */; };
+		3C6F1F562ED47182006AEA7C /* AddProductSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F1F532ED47180006AEA7C /* AddProductSheetView.swift */; };
+		3C6F1F582ED9D51B006AEA7C /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F1F572ED9D519006AEA7C /* AuthService.swift */; };
+		3C6F1F592ED9D51B006AEA7C /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F1F572ED9D519006AEA7C /* AuthService.swift */; };
+		3C6F1F5A2ED9D51B006AEA7C /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F1F572ED9D519006AEA7C /* AuthService.swift */; };
+		3C6F1F5C2ED9D557006AEA7C /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F1F5B2ED9D552006AEA7C /* APIConfig.swift */; };
+		3C6F1F5D2ED9D557006AEA7C /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F1F5B2ED9D552006AEA7C /* APIConfig.swift */; };
+		3C6F1F5E2ED9D557006AEA7C /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F1F5B2ED9D552006AEA7C /* APIConfig.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C30D5E32EA4E1A000E0A6FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C30D5CA2EA4E19F00E0A6FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C30D5D12EA4E19F00E0A6FA;
+			remoteInfo = "Split Party";
+		};
+		3C30D5ED2EA4E1A000E0A6FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C30D5CA2EA4E19F00E0A6FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C30D5D12EA4E19F00E0A6FA;
+			remoteInfo = "Split Party";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C30D5D22EA4E19F00E0A6FA /* Split Party.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Split Party.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C30D5E22EA4E1A000E0A6FA /* Split PartyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Split PartyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C30D5EC2EA4E1A000E0A6FA /* Split PartyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Split PartyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C30D6272EA4E32000E0A6FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C30D6282EA4E32000E0A6FA /* codetea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codetea.swift; sourceTree = "<group>"; };
+		3C30D62B2EA4E32000E0A6FA /* MyApp 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyApp 2.swift"; sourceTree = "<group>"; };
+		3C30D62C2EA4E32000E0A6FA /* AppNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigator.swift; sourceTree = "<group>"; };
+		3C30D62E2EA4E32000E0A6FA /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		3C30D62F2EA4E32000E0A6FA /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		3C30D6302EA4E32000E0A6FA /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
+		3C30D7442EA50C3100E0A6FA /* EnterCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterCode.swift; sourceTree = "<group>"; };
+		3C30D7482EA50D8500E0A6FA /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		3C30D74C2EA50FEE00E0A6FA /* ResetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassword.swift; sourceTree = "<group>"; };
+		3C30D7502EA5105200E0A6FA /* PasswordChanged.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordChanged.swift; sourceTree = "<group>"; };
+		3C30D7742EACD48E00E0A6FA /* MyPartiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPartiesView.swift; sourceTree = "<group>"; };
+		3C30D7782EACD9AE00E0A6FA /* SharedBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedBillView.swift; sourceTree = "<group>"; };
+		3C30D77C2EACF8DB00E0A6FA /* PlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistView.swift; sourceTree = "<group>"; };
+		3C30D7802EACFD4100E0A6FA /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		3C30D8182EB4F6BC00E0A6FA /* AppRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoute.swift; sourceTree = "<group>"; };
+		3C6F1F472ED468D8006AEA7C /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		3C6F1F4B2ED46FD6006AEA7C /* MusicAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAccountView.swift; sourceTree = "<group>"; };
+		3C6F1F4F2ED47165006AEA7C /* BillDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillDetailView.swift; sourceTree = "<group>"; };
+		3C6F1F532ED47180006AEA7C /* AddProductSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductSheetView.swift; sourceTree = "<group>"; };
+		3C6F1F572ED9D519006AEA7C /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		3C6F1F5B2ED9D552006AEA7C /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C30D5CF2EA4E19F00E0A6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C30D5DF2EA4E1A000E0A6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C30D5E92EA4E1A000E0A6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C30D5C92EA4E19F00E0A6FA = {
+			isa = PBXGroup;
+			children = (
+				3C30D8182EB4F6BC00E0A6FA /* AppRoute.swift */,
+				3C30D6A22EA4E8F900E0A6FA /* Preview Content */,
+				3C30D5D32EA4E19F00E0A6FA /* Products */,
+				3C30D6272EA4E32000E0A6FA /* Assets.xcassets */,
+				3C30D6292EA4E32000E0A6FA /* extension */,
+				3C30D62B2EA4E32000E0A6FA /* MyApp 2.swift */,
+				3C30D62D2EA4E32000E0A6FA /* Navigation */,
+				3C30D6312EA4E32000E0A6FA /* screens */,
+			);
+			sourceTree = "<group>";
+		};
+		3C30D5D32EA4E19F00E0A6FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C30D5D22EA4E19F00E0A6FA /* Split Party.app */,
+				3C30D5E22EA4E1A000E0A6FA /* Split PartyTests.xctest */,
+				3C30D5EC2EA4E1A000E0A6FA /* Split PartyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C30D6292EA4E32000E0A6FA /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				3C30D6282EA4E32000E0A6FA /* codetea.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		3C30D62D2EA4E32000E0A6FA /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				3C30D62C2EA4E32000E0A6FA /* AppNavigator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		3C30D6312EA4E32000E0A6FA /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				3C6F1F5B2ED9D552006AEA7C /* APIConfig.swift */,
+				3C6F1F572ED9D519006AEA7C /* AuthService.swift */,
+				3C6F1F532ED47180006AEA7C /* AddProductSheetView.swift */,
+				3C6F1F4F2ED47165006AEA7C /* BillDetailView.swift */,
+				3C30D7782EACD9AE00E0A6FA /* SharedBillView.swift */,
+				3C30D7742EACD48E00E0A6FA /* MyPartiesView.swift */,
+				3C6F1F4B2ED46FD6006AEA7C /* MusicAccountView.swift */,
+				3C6F1F472ED468D8006AEA7C /* FriendsView.swift */,
+				3C30D7802EACFD4100E0A6FA /* AccountView.swift */,
+				3C30D77C2EACF8DB00E0A6FA /* PlaylistView.swift */,
+				3C30D7502EA5105200E0A6FA /* PasswordChanged.swift */,
+				3C30D74C2EA50FEE00E0A6FA /* ResetPassword.swift */,
+				3C30D7482EA50D8500E0A6FA /* ForgotPassword.swift */,
+				3C30D7442EA50C3100E0A6FA /* EnterCode.swift */,
+				3C30D62E2EA4E32000E0A6FA /* HomeScreen.swift */,
+				3C30D62F2EA4E32000E0A6FA /* LoginScreen.swift */,
+				3C30D6302EA4E32000E0A6FA /* RegisterScreen.swift */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		3C30D6A22EA4E8F900E0A6FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C30D5D12EA4E19F00E0A6FA /* Split Party */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C30D5F62EA4E1A000E0A6FA /* Build configuration list for PBXNativeTarget "Split Party" */;
+			buildPhases = (
+				3C30D5CE2EA4E19F00E0A6FA /* Sources */,
+				3C30D5CF2EA4E19F00E0A6FA /* Frameworks */,
+				3C30D5D02EA4E19F00E0A6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Split Party";
+			packageProductDependencies = (
+			);
+			productName = "Split Party";
+			productReference = 3C30D5D22EA4E19F00E0A6FA /* Split Party.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C30D5E12EA4E1A000E0A6FA /* Split PartyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C30D5F92EA4E1A000E0A6FA /* Build configuration list for PBXNativeTarget "Split PartyTests" */;
+			buildPhases = (
+				3C30D5DE2EA4E1A000E0A6FA /* Sources */,
+				3C30D5DF2EA4E1A000E0A6FA /* Frameworks */,
+				3C30D5E02EA4E1A000E0A6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C30D5E42EA4E1A000E0A6FA /* PBXTargetDependency */,
+			);
+			name = "Split PartyTests";
+			packageProductDependencies = (
+			);
+			productName = "Split PartyTests";
+			productReference = 3C30D5E22EA4E1A000E0A6FA /* Split PartyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C30D5EB2EA4E1A000E0A6FA /* Split PartyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C30D5FC2EA4E1A000E0A6FA /* Build configuration list for PBXNativeTarget "Split PartyUITests" */;
+			buildPhases = (
+				3C30D5E82EA4E1A000E0A6FA /* Sources */,
+				3C30D5E92EA4E1A000E0A6FA /* Frameworks */,
+				3C30D5EA2EA4E1A000E0A6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C30D5EE2EA4E1A000E0A6FA /* PBXTargetDependency */,
+			);
+			name = "Split PartyUITests";
+			packageProductDependencies = (
+			);
+			productName = "Split PartyUITests";
+			productReference = 3C30D5EC2EA4E1A000E0A6FA /* Split PartyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C30D5CA2EA4E19F00E0A6FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					3C30D5D12EA4E19F00E0A6FA = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					3C30D5E12EA4E1A000E0A6FA = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 3C30D5D12EA4E19F00E0A6FA;
+					};
+					3C30D5EB2EA4E1A000E0A6FA = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 3C30D5D12EA4E19F00E0A6FA;
+					};
+				};
+			};
+			buildConfigurationList = 3C30D5CD2EA4E19F00E0A6FA /* Build configuration list for PBXProject "Split Party" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C30D5C92EA4E19F00E0A6FA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3C30D5D32EA4E19F00E0A6FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C30D5D12EA4E19F00E0A6FA /* Split Party */,
+				3C30D5E12EA4E1A000E0A6FA /* Split PartyTests */,
+				3C30D5EB2EA4E1A000E0A6FA /* Split PartyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C30D5D02EA4E19F00E0A6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C30D6322EA4E32000E0A6FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C30D5E02EA4E1A000E0A6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C30D6422EA4E32000E0A6FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C30D5EA2EA4E1A000E0A6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C30D6402EA4E32000E0A6FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C30D5CE2EA4E19F00E0A6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C30D6342EA4E32000E0A6FA /* codetea.swift in Sources */,
+				3C30D6352EA4E32000E0A6FA /* AppNavigator.swift in Sources */,
+				3C6F1F492ED468E0006AEA7C /* FriendsView.swift in Sources */,
+				3C30D7772EACD49900E0A6FA /* MyPartiesView.swift in Sources */,
+				3C30D7812EACFD4D00E0A6FA /* AccountView.swift in Sources */,
+				3C30D6362EA4E32000E0A6FA /* MyApp 2.swift in Sources */,
+				3C30D77B2EACD9B300E0A6FA /* SharedBillView.swift in Sources */,
+				3C6F1F5A2ED9D51B006AEA7C /* AuthService.swift in Sources */,
+				3C30D74E2EA50FF100E0A6FA /* ResetPassword.swift in Sources */,
+				3C30D77D2EACF8E500E0A6FA /* PlaylistView.swift in Sources */,
+				3C30D74B2EA50D8600E0A6FA /* ForgotPassword.swift in Sources */,
+				3C6F1F4D2ED46FD9006AEA7C /* MusicAccountView.swift in Sources */,
+				3C30D6372EA4E32000E0A6FA /* RegisterScreen.swift in Sources */,
+				3C30D6382EA4E32000E0A6FA /* LoginScreen.swift in Sources */,
+				3C30D7512EA5105400E0A6FA /* PasswordChanged.swift in Sources */,
+				3C30D7462EA50C3F00E0A6FA /* EnterCode.swift in Sources */,
+				3C6F1F552ED47182006AEA7C /* AddProductSheetView.swift in Sources */,
+				3C30D6392EA4E32000E0A6FA /* HomeScreen.swift in Sources */,
+				3C6F1F512ED47166006AEA7C /* BillDetailView.swift in Sources */,
+				3C30D81B2EB4F6BC00E0A6FA /* AppRoute.swift in Sources */,
+				3C6F1F5C2ED9D557006AEA7C /* APIConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C30D5DE2EA4E1A000E0A6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C30D6442EA4E32000E0A6FA /* codetea.swift in Sources */,
+				3C30D6452EA4E32000E0A6FA /* AppNavigator.swift in Sources */,
+				3C6F1F4A2ED468E0006AEA7C /* FriendsView.swift in Sources */,
+				3C30D7752EACD49900E0A6FA /* MyPartiesView.swift in Sources */,
+				3C30D7822EACFD4D00E0A6FA /* AccountView.swift in Sources */,
+				3C30D6462EA4E32000E0A6FA /* MyApp 2.swift in Sources */,
+				3C30D7792EACD9B300E0A6FA /* SharedBillView.swift in Sources */,
+				3C6F1F592ED9D51B006AEA7C /* AuthService.swift in Sources */,
+				3C30D74F2EA50FF100E0A6FA /* ResetPassword.swift in Sources */,
+				3C30D77E2EACF8E500E0A6FA /* PlaylistView.swift in Sources */,
+				3C30D74A2EA50D8600E0A6FA /* ForgotPassword.swift in Sources */,
+				3C6F1F4C2ED46FD9006AEA7C /* MusicAccountView.swift in Sources */,
+				3C30D6472EA4E32000E0A6FA /* RegisterScreen.swift in Sources */,
+				3C30D6482EA4E32000E0A6FA /* LoginScreen.swift in Sources */,
+				3C30D7522EA5105400E0A6FA /* PasswordChanged.swift in Sources */,
+				3C30D7472EA50C3F00E0A6FA /* EnterCode.swift in Sources */,
+				3C6F1F562ED47182006AEA7C /* AddProductSheetView.swift in Sources */,
+				3C30D6492EA4E32000E0A6FA /* HomeScreen.swift in Sources */,
+				3C6F1F522ED47166006AEA7C /* BillDetailView.swift in Sources */,
+				3C30D8192EB4F6BC00E0A6FA /* AppRoute.swift in Sources */,
+				3C6F1F5D2ED9D557006AEA7C /* APIConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C30D5E82EA4E1A000E0A6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C30D63A2EA4E32000E0A6FA /* codetea.swift in Sources */,
+				3C30D63B2EA4E32000E0A6FA /* AppNavigator.swift in Sources */,
+				3C6F1F482ED468E0006AEA7C /* FriendsView.swift in Sources */,
+				3C30D7762EACD49900E0A6FA /* MyPartiesView.swift in Sources */,
+				3C30D7832EACFD4D00E0A6FA /* AccountView.swift in Sources */,
+				3C30D63C2EA4E32000E0A6FA /* MyApp 2.swift in Sources */,
+				3C30D77A2EACD9B300E0A6FA /* SharedBillView.swift in Sources */,
+				3C6F1F582ED9D51B006AEA7C /* AuthService.swift in Sources */,
+				3C30D74D2EA50FF100E0A6FA /* ResetPassword.swift in Sources */,
+				3C30D77F2EACF8E500E0A6FA /* PlaylistView.swift in Sources */,
+				3C30D7492EA50D8600E0A6FA /* ForgotPassword.swift in Sources */,
+				3C6F1F4E2ED46FD9006AEA7C /* MusicAccountView.swift in Sources */,
+				3C30D63D2EA4E32000E0A6FA /* RegisterScreen.swift in Sources */,
+				3C30D63E2EA4E32000E0A6FA /* LoginScreen.swift in Sources */,
+				3C30D7532EA5105400E0A6FA /* PasswordChanged.swift in Sources */,
+				3C30D7452EA50C3F00E0A6FA /* EnterCode.swift in Sources */,
+				3C6F1F542ED47182006AEA7C /* AddProductSheetView.swift in Sources */,
+				3C30D63F2EA4E32000E0A6FA /* HomeScreen.swift in Sources */,
+				3C6F1F502ED47166006AEA7C /* BillDetailView.swift in Sources */,
+				3C30D81A2EB4F6BC00E0A6FA /* AppRoute.swift in Sources */,
+				3C6F1F5E2ED9D557006AEA7C /* APIConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C30D5E42EA4E1A000E0A6FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C30D5D12EA4E19F00E0A6FA /* Split Party */;
+			targetProxy = 3C30D5E32EA4E1A000E0A6FA /* PBXContainerItemProxy */;
+		};
+		3C30D5EE2EA4E1A000E0A6FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C30D5D12EA4E19F00E0A6FA /* Split Party */;
+			targetProxy = 3C30D5ED2EA4E1A000E0A6FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C30D5F42EA4E1A000E0A6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C30D5F52EA4E1A000E0A6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C30D5F72EA4E1A000E0A6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BPM-24-2.Split-Party";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C30D5F82EA4E1A000E0A6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BPM-24-2.Split-Party";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C30D5FA2EA4E1A000E0A6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BPM-24-2.Split-PartyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Split Party.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Split Party";
+			};
+			name = Debug;
+		};
+		3C30D5FB2EA4E1A000E0A6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BPM-24-2.Split-PartyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Split Party.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Split Party";
+			};
+			name = Release;
+		};
+		3C30D5FD2EA4E1A000E0A6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BPM-24-2.Split-PartyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Split Party";
+			};
+			name = Debug;
+		};
+		3C30D5FE2EA4E1A000E0A6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BPM-24-2.Split-PartyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Split Party";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C30D5CD2EA4E19F00E0A6FA /* Build configuration list for PBXProject "Split Party" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C30D5F42EA4E1A000E0A6FA /* Debug */,
+				3C30D5F52EA4E1A000E0A6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C30D5F62EA4E1A000E0A6FA /* Build configuration list for PBXNativeTarget "Split Party" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C30D5F72EA4E1A000E0A6FA /* Debug */,
+				3C30D5F82EA4E1A000E0A6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C30D5F92EA4E1A000E0A6FA /* Build configuration list for PBXNativeTarget "Split PartyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C30D5FA2EA4E1A000E0A6FA /* Debug */,
+				3C30D5FB2EA4E1A000E0A6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C30D5FC2EA4E1A000E0A6FA /* Build configuration list for PBXNativeTarget "Split PartyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C30D5FD2EA4E1A000E0A6FA /* Debug */,
+				3C30D5FE2EA4E1A000E0A6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C30D5CA2EA4E19F00E0A6FA /* Project object */;
+}
