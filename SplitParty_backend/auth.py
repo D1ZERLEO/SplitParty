@@ -3,7 +3,7 @@ from passlib.context import CryptContext
 from datetime import datetime, timedelta
 import jwt
 
-# ЗАМЕНИТЕ bcrypt НА argon2
+
 pwd_context = CryptContext(schemes=["argon2"], deprecated="auto")
 
 SECRET_KEY = os.getenv("SECRET_KEY", "secret_example_change")
@@ -31,4 +31,5 @@ def decode_token(token: str):
         payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
         return payload
     except jwt.PyJWTError:
+
         return None
